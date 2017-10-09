@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1975" height="175">
+
+  <defs>
+    <marker id="blunt" markerWidth="4" markerHeight="4" refX="0" refY="2" orient="auto">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#000" stroke-width="1"/>
+    </marker>
+    <marker id="arrowhead" markerWidth="5" markerHeight="4" refX="0" refY="2" orient="auto">
+      <polygon points="0 0, 5 2, 0 4" />
+    </marker>
+  </defs>
+
+  <!-- RedBlack x+0 -->
+  <circle cx="85" cy="85" r="63" fill="#000000" stroke="#ff0000" stroke-width="44"/>  
+  <line y2="22" x2="85" y1="2" x1="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line y2="148" x2="85" y1="166" x1="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="22" y2="85" x1="2" y1="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="148" y2="85" x1="166" y1="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- RedWhite x+200 -->
+  <circle cx="285" cy="85" r="63" fill="#ffffff" stroke="#ff0000" stroke-width="44"/>  
+  <line y2="22" x2="285" y1="2" x1="285" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line y2="148" x2="285" y1="166" x1="285" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="222" y2="85" x1="202" y1="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="348" y2="85" x1="366" y1="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- OrangeBlack x+400 -->
+  <circle cx="485" cy="85" r="63" fill="#000000" stroke="orange" stroke-width="44"/>  
+  <line x1="516" y1="116" x2="527" y2="127" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="516" y1="54" x2="527" y2="43" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="443" y2="43" x1="454" y1="54" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="443" y2="127" x1="454" y1="116" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- OrangeWhite x+600 -->
+  <circle cx="685" cy="85" r="63" fill="#ffffff" stroke="orange" stroke-width="44"/>  
+  <line x1="716" y1="116" x2="727" y2="127" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="716" y1="54" x2="727" y2="43" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="643" y2="43" x1="654" y1="54" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x2="643" y2="127" x1="654" y1="116" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- YellowBlack x+800 -->
+  <circle cx="885" cy="85" r="63" fill="#000000" stroke="yellow" stroke-width="44"/>  
+  <line x1="842" y1="85" x2="822" y2="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="928" y1="85" x2="946" y2="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- YellowWhite x+1000 -->
+  <circle cx="1085" cy="85" r="63" fill="#ffffff" stroke="yellow" stroke-width="44"/>  
+  <line x1="1042" y1="85" x2="1022" y2="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="1128" y1="85" x2="1146" y2="85" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- GreenBlack x+1200 -->
+  <circle cx="1285" cy="85" r="63" fill="#000000" stroke="green" stroke-width="44"/>  
+  <line y1="42" x1="1285" y2="22" x2="1285" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line y1="128" x1="1285" y2="146" x2="1285" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- GreenWhite x+1400 -->
+  <circle cx="1485" cy="85" r="63" fill="#ffffff" stroke="green" stroke-width="44"/>  
+  <line y1="42" x1="1485" y2="22" x2="1485" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line y1="128" x1="1485" y2="146" x2="1485" stroke="#000" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- BlueBlack x+1600 -->
+  <circle cx="1685" cy="85" r="63" fill="#000000" stroke="#0000ff" stroke-width="44"/>  
+  <line y1="42" x1="1685" y2="22" x2="1685" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line y1="128" x1="1685" y2="146" x2="1685" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1642" y1="85" x2="1622" y2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1728" y1="85" x2="1746" y2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1716" y1="116" x2="1727" y2="127" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1716" y1="54" x2="1727" y2="43" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x2="1643" y2="43" x1="1654" y1="54" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x2="1643" y2="127" x1="1654" y1="116" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+
+  <!-- BlueWhite x+1800 -->
+  <circle cx="1885" cy="85" r="63" fill="#ffffff" stroke="#0000ff" stroke-width="44"/>  
+  <line y1="42" x1="1885" y2="22" x2="1885" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line y1="128" x1="1885" y2="146" x2="1885" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1842" y1="85" x2="1822" y2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1928" y1="85" x2="1946" y2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1916" y1="116" x2="1927" y2="127" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="1916" y1="54" x2="1927" y2="43" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x2="1843" y2="43" x1="1854" y1="54" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x2="1843" y2="127" x1="1854" y1="116" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+</svg>

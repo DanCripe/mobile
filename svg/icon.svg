@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="175">
+
+  <defs>
+    <marker id="blunt" markerWidth="4" markerHeight="4" refX="0" refY="2" orient="auto">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#000" stroke-width="1"/>
+    </marker>
+  </defs>
+
+  <!-- BlueWhite -->
+  <circle cx="85" cy="85" r="63" fill="#ffffff" stroke="#0000ff" stroke-width="44"/>  
+  <line y1="42" x1="85" y2="22" x2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line y1="128" x1="85" y2="146" x2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="42" y1="85" x2="22" y2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="128" y1="85" x2="146" y2="85" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="116" y1="116" x2="127" y2="127" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x1="116" y1="54" x2="127" y2="43" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x2="43" y2="43" x1="54" y1="54" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+  <line x2="43" y2="127" x1="54" y1="116" stroke="#000" stroke-width="4" marker-end="url(#blunt)" />
+</svg>

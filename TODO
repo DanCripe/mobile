@@ -1,0 +1,44 @@
+Work-in-progress:
+=======================================================
+
+Requirements
+=======================================================
+o Icon
+
+Desired Features
+=======================================================
+o Sounds (openAL code has issues)
+
+Enhancements
+=======================================================
+o Identify which circles are clicked and which aren't
+o Make arrows optional
+
+General
+=======================================================
+o Figure out an easy way to run in emulator and do debugging there.
+o Restrict click to the radius of the circle, not the area of the square
+o Build for ios
+o Cleanup code
+
+Testing
+=======================================================
+o Android phones
+o Android tablets
+o iPhones
+o iPads
+
+Done
+=======================================================
+o Get rid of overlap with Android notification bar.
+o Bug: Screen rotation kills app.
+o Seed RNG
+o Weed out obviously easy puzzles.
+o Control strip
+o Figure out if there's a way to store config data
+o Eliminate "You win!" and use a big checkmark to indicate victory.
+
+gomobile Bugs/Enhancements
+=======================================================
+o BUG: x11 requires polling
+o ENH: read/write key/value settings

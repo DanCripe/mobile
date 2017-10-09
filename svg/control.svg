@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1375" height="175">
+
+  <defs>
+    <marker id="arrowhead" markerWidth="5" markerHeight="4" refX="0" refY="2" orient="auto" fill="white" stroke="white">
+      <polygon points="0 0, 5 2, 0 4" />
+    </marker>
+  </defs>
+
+  <!-- RedBlack x+0 : reset puzzle -->
+  <circle cx="85" cy="85" r="63" fill="black" stroke="red" stroke-width="44"/>  
+  <path d="M 70 70
+           A 20 20 0 1 0 100 70" stroke="white" fill="black" stroke-width="3"  marker-end="url(#arrowhead)"/>
+
+  <!-- OrangeBlack x+200 : mute -->
+  <circle cx="285" cy="85" r="63" fill="black" stroke="orange" stroke-width="44"/>  
+  <rect x="265" y="75" width="20" height="20" style="fill:white; stroke:white"/>
+  <polygon points="290,65 270,85 290,105" style="fill:white; stroke:white" />
+  <path d="M295 70
+           A 20 20 0 0 1 295 100" stroke="white" fill="none" stroke-width="3"/>
+  <path d="M302 70
+           A 20 20 0 0 1 302 100" stroke="white" fill="none" stroke-width="3"/>
+
+  <!-- YellowBlack x+400 : puzzle # -->
+  <circle cx="485" cy="85" r="63" fill="black" stroke="yellow" stroke-width="44"/>  
+
+  <!-- GreenBlack x+600 : grid size 3 -->
+  <circle cx="685" cy="85" r="63" fill="black" stroke="green" stroke-width="44"/>  
+  <!--rect x="667" y="67" width="36" height="36" style="fill:black;stroke:white;stroke-width=3"/ -->
+  <line x1="667" y1="67" x2="703" y2="67" stroke="white" stroke-width="2"/>
+  <line x1="667" y1="79" x2="703" y2="79" stroke="white" stroke-width="2"/>
+  <line x1="667" y1="91" x2="703" y2="91" stroke="white" stroke-width="2"/>
+  <line x1="667" y1="103" x2="703" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="667" y1="67" x2="667" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="679" y1="67" x2="679" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="691" y1="67" x2="691" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="703" y1="67" x2="703" y2="103" stroke="white" stroke-width="2"/>
+
+  <!-- BlueBlack x+800 : skip -->
+  <circle cx="885" cy="85" r="63" fill="black000000" stroke="blue" stroke-width="44"/>  
+  <line x1="877" y1="70" x2="887" y2="85" stroke="white" fill="white" stroke-width="3"/>
+  <line x1="887" y1="85" x2="877" y2="100" stroke="white" fill="white" stroke-width="3"/>
+  <line x1="887" y1="70" x2="897" y2="85" stroke="white" fill="white" stroke-width="3"/>
+  <line x1="897" y1="85" x2="887" y2="100" stroke="white" fill="white" stroke-width="3"/>
+
+  <!-- OrangeBlack x+1000 : unmute -->
+  <circle cx="1085" cy="85" r="63" fill="black" stroke="orange" stroke-width="44"/>  
+  <rect x="1065" y="75" width="20" height="20" style="fill:white; stroke:white"/>
+  <polygon points="1090,65 1070,85 1090,105" style="fill:white; stroke:white" />
+  <line x1="1100" y1="80" x2="1110" y2="90" stroke="white" fill="white" stroke-width="3"/>
+  <line x1="1100" y1="90" x2="1110" y2="80" stroke="white" fill="white" stroke-width="3"/>
+  <!-- GreenBlack x+1200 : grid size 4 -->
+  <circle cx="1285" cy="85" r="63" fill="black" stroke="green" stroke-width="44"/>  
+  <line x1="1267" y1="67" x2="1303" y2="67" stroke="white" stroke-width="2"/>
+  <line x1="1267" y1="76" x2="1303" y2="76" stroke="white" stroke-width="2"/>
+  <line x1="1267" y1="85" x2="1303" y2="85" stroke="white" stroke-width="2"/>
+  <line x1="1267" y1="94" x2="1303" y2="94" stroke="white" stroke-width="2"/>
+  <line x1="1267" y1="103" x2="1303" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="1267" y1="67" x2="1267" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="1276" y1="67" x2="1276" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="1285" y1="67" x2="1285" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="1294" y1="67" x2="1294" y2="103" stroke="white" stroke-width="2"/>
+  <line x1="1303" y1="67" x2="1303" y2="103" stroke="white" stroke-width="2"/>
+
+</svg>

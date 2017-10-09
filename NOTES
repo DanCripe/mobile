@@ -1,0 +1,23 @@
+How to run gendex to pre-compile the java code in go mobile android support:
+    cd $GOPATH/src/golang.org/x/mobile/cmd/gomobile
+    export ANDROID_HOME=/home/dan/Android/Sdk
+    go run gendex.go -o dex.go
+
+How to generate the icon:
+    cd $GOPATH/src/github.com/dancripe/tmo/svg
+    make icon.png
+    cd ~/Downloads/and/android-studio/bin
+    ./studio.sh
+    # Select res in android view
+    # File->New->Image Asset
+    # Click "Image" radio button
+    # Select $GOPATH/src/github.com/dancripe/tmo/svg/icon.png
+    # Click on "Yes" for Trim selection
+    # SCROLL DOWN
+    # Select Circle from Shape
+    # Click Next
+    # Click Finish
+    # Select ic_launcher.png from mipmap-xxxhdpi directory
+    # Copy file to $GOPATH/src/github.com/dancripe/tmo/assets
+    # Rename to icon.png
+

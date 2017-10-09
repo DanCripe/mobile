@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="175">
+
+  <!-- XXXXBlack x+0 : Check -->
+  <circle cx="85" cy="85" r="63" fill="white" stroke="darkviolet" stroke-width="44"/>  
+  <!-- checkmark -->
+  <path d="M 70 80 L 80 100 L 105 70" fill="none" stroke="darkviolet" stroke-width="8"/>
+</svg>
